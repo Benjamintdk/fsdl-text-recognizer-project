@@ -12,6 +12,9 @@ from tensorflow.keras.utils import to_categorical
 import h5py
 import numpy as np
 import toml
+import sys
+
+sys.path.append(r"C:\Users\bcche\fsdl-text-recognizer-project\lab1")
 
 from text_recognizer.datasets.dataset import _download_raw_dataset, Dataset, _parse_args
 

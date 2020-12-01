@@ -1,0 +1,81 @@
+* [33mc643503[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m installed dependencies
+* [33m713f069[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m back to the future
+* [33m67cfa2a[m linting
+* [33mea160ff[m transformer and lab5 update
+* [33m12019df[m update
+* [33mb32ffe2[m fix
+* [33me40794e[m fix
+*   [33m83efdeb[m Merge pull request #17 from full-stack-deep-learning/sergeyk/reorg-labs-234
+[32m|[m[33m\[m  
+[32m|[m * [33m901b86c[m[33m ([m[1;31morigin/sergeyk/reorg-labs-234[m[33m)[m fix
+[32m|[m * [33m41bae54[m fix ci
+[32m|[m * [33m0bf3b8b[m reorg labs 2/3/4
+[32m|[m[32m/[m  
+* [33mb4d5a45[m excise pipenv
+* [33mbde8c5f[m update
+* [33m67b55ec[m fix
+* [33m0b403d0[m update
+* [33m9b7a989[m update
+* [33m95422c5[m update
+* [33m9311c30[m Update readme.md
+* [33md351e36[m fix
+* [33m69d5af1[m adding environment.yml
+* [33mb0e2923[m major update for uw course
+* [33md2b474d[m Add setup.md
+*   [33me169831[m Merge pull request #13 from full-stack-deep-learning/polish
+[34m|[m[35m\[m  
+[34m|[m * [33m262044c[m[33m ([m[1;31morigin/polish[m[33m)[m Fix sweep yaml
+[34m|[m * [33m7cd35a8[m Fixed iam defaults
+* [35m|[m   [33mcb71a52[m Merge pull request #12 from full-stack-deep-learning/polish
+[36m|[m[35m\[m [35m\[m  
+[36m|[m [35m|[m[35m/[m  
+[36m|[m * [33m1a3acff[m Add wandb settings;
+[36m|[m * [33mdab3c2c[m Polish work
+[36m|[m[36m/[m  
+* [33mefd3d53[m Move hyper params to Lab 4
+*   [33m3e39eb2[m Merge pull request #11 from full-stack-deep-learning/sweeps
+[1;32m|[m[1;33m\[m  
+[1;32m|[m * [33mb8350a9[m[33m ([m[1;31morigin/sweeps[m[33m)[m sweeps
+[1;32m|[m * [33mfec8dab[m sweeps
+[1;32m|[m[1;32m/[m  
+* [33mde23fd8[m fix
+* [33m2563a0e[m lint
+* [33mb126e9f[m linting
+* [33m1d7a550[m adding sweeps
+*   [33mbaf821c[m Merge pull request #10 from full-stack-deep-learning/sergeyk/eight-labs
+[1;34m|[m[1;35m\[m  
+[1;34m|[m * [33m3ad257b[m deployment works
+[1;34m|[m * [33mde85de4[m linting dialed in
+[1;34m|[m * [33m0d9ece0[m update
+[1;34m|[m * [33mef3f340[m moving to eight labs
+[1;34m|[m[1;34m/[m  
+* [33m5574813[m Clarify that w&b is no longer used
+* [33m6f0d088[m fix typos and bug
+* [33m6f28fad[m circleci
+* [33m2f7af88[m fix for api
+* [33m42b5d8e[m linting
+* [33m2f971ad[m circleci config
+* [33md6f22df[m adding missing notebooks
+* [33mc35e51b[m updated
+* [33md6c2131[m fix pipfile and circleci
+* [33m35cc955[m better iam model
+* [33ma207b50[m forgot new files
+* [33m8e7c1ac[m lab6 updated
+* [33m2508fa7[m renaming
+* [33m16f4d73[m subsetting
+* [33m6c1e1a4[m fixe
+* [33m46ee423[m add iam
+* [33m8470e25[m fix
+* [33m3dc2edd[m fix
+* [33m54785f0[m update
+* [33mca2c4d4[m fix bug with subsetting
+* [33m7219eb1[m new files
+* [33m065c44c[m update
+* [33m6d693cb[m update
+* [33mffdd08e[m update
+* [33m92dbb00[m Path instead of pathlib.Path
+* [33m340f3cc[m update pipfile
+* [33mb20abe1[m update
+* [33m8a68ae7[m fix circleci
+* [33m8093075[m linting
+* [33mbc26a67[m initial

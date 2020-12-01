@@ -5,8 +5,11 @@ import json
 import importlib
 from typing import Dict
 import os
+import sys
 
-from training.util import train_model
+sys.path.append(r"C:\Users\bcche\fsdl-text-recognizer-project\lab1")
+
+from util import train_model
 
 DEFAULT_TRAIN_ARGS = {"batch_size": 64, "epochs": 16}
 
@@ -98,9 +101,29 @@ def _parse_args():
         help="If true, then final weights will be saved to canonical, version-controlled location",
     )
     parser.add_argument(
-        "experiment_config",
+        "--dataset",
         type=str,
-        help='Experimenet JSON (\'{"dataset": "EmnistDataset", "model": "CharacterModel", "network": "mlp"}\'',
+        help='EmnistDataset'
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        help='CharacterModel'
+    )
+    parser.add_argument(
+        "--network",
+        type=str,
+        help='mlp'
+    )
+    parser.add_argument(
+        "--batch_size",
+        type=int,
+        help='256'
+    )
+    parser.add_argument(
+        "--num_layers",
+        type=int,
+        help='8'
     )
     parser.add_argument(
         "--nowandb", default=False, action="store_true", help="If true, do not use wandb for this run",
@@ -113,7 +136,7 @@ def main():
     """Run experiment."""
     args = _parse_args()
 
-    experiment_config = json.loads(args.experiment_config)
+    experiment_config = {"dataset":args.dataset, "model":args.model, "network":args.network, "train_args":{"batch_size":args.batch_size}}
     os.environ["CUDA_VISIBLE_DEVICES"] = f"{args.gpu}"
     run_experiment(experiment_config, args.save, args.gpu, use_wandb=not args.nowandb)
 

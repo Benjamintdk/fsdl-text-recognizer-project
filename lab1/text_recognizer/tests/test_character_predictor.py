@@ -2,6 +2,9 @@
 import os
 from pathlib import Path
 import unittest
+import sys 
+
+sys.path.append(r"C:\Users\bcche\fsdl-text-recognizer-project\lab1")
 
 from text_recognizer.character_predictor import CharacterPredictor
 
